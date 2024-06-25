@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rewrite"
+    android:orientation="horizontal"
+    android:background="#FAF4FF"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/back4" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/back4"
+        android:layout_marginTop="260dp"
+        />
+
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/back1" />
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/back1" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/change"
+
+        />
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/change_1"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="37dp"
+        />
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/edittext_3"
+            android:drawableLeft="@drawable/pass"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <EditText
+            android:id="@+id/mtext_1"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/edittext_2"
+            android:hint="請輸入舊的密碼"
+            android:padding="8dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tmp1"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/text_1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:textColor="#FF7575"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/key"
+            android:layout_below="@id/mtext_1"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/member_test"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <EditText
+            android:id="@+id/mtext_2"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/edittext_2"
+            android:hint="請輸入新的密碼"
+            android:padding="8dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn_1"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext_3"
+            android:drawableLeft="@drawable/car_ad"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <EditText
+            android:id="@+id/mtext_3"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:padding="8dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/edittext_2"
+            android:hint="舊的車牌號"
+            android:inputType="textCapCharacters"
+            android:textStyle="bold"
+            android:layout_marginTop="315dp"            />
+
+        <TextView
+            android:id="@+id/tmp2"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/text_3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:textColor="#FF7575"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/mtext_3"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/member_test"
+        android:drawableLeft="@drawable/key_1"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="5dp"/>
+
+    <EditText
+        android:id="@+id/mtext_4"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="390dp"
+
+        android:background="@drawable/edittext_2"
+        android:hint="新的車牌號"
+        android:padding="8dp"
+        android:textStyle="bold" />
+
+    <Button
+            android:id="@+id/btn_1"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/mtext_2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_1"
+            android:text="update"
+            android:textColor="#FFF7FB"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/mtext_2"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/join_btn"
+            android:text="cancel"
+            android:textColor="#FFF7FB"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/mtext_4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_1"
+            android:text="update"
+            android:textColor="#FFF7FB"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/mtext_4"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/join_btn"
+            android:text="cancel"
+            android:textColor="#FFF7FB"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+          <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bubble"
+              android:layout_marginTop="170dp"
+              android:layout_marginLeft="280dp"
+              />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bubble"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="280dp"
+        />
+</RelativeLayout>

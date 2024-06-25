@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".member"
+    android:background="#F1E1FF"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="141dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/text3" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:background="@drawable/text1"
+        android:layout_marginLeft="90dp"
+        />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/text2"
+        android:layout_toRightOf="@id/text"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/text"
+        android:background="@drawable/member_test"
+        android:drawableLeft="@drawable/person"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="7dp"
+        />
+
+    <EditText
+        android:id="@+id/mtext_1"
+        android:layout_width="275dp"
+        android:layout_height="35dp"
+        android:hint="User Name"
+        android:textSize="15sp"
+        android:textColorHint="#AB7393"
+        android:background="@drawable/edittext_2"
+        android:layout_marginLeft="60dp"
+        android:padding="8dp"
+        android:textStyle = "bold"
+        android:layout_below="@id/text"
+       android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/mtext_1"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/member_test"
+        android:drawableLeft="@drawable/pass"
+        android:paddingLeft="18dp"
+        />
+
+    <EditText
+        android:id="@+id/mtext_2"
+        android:layout_width="275dp"
+        android:layout_height="35dp"
+        android:textColorHint="#AB7393"
+        android:layout_below="@id/mtext_1"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="18dp"
+        android:textSize="15sp"
+        android:background="@drawable/edittext_2"
+        android:hint="Password"
+        android:padding="8dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/mtext_2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/member_test"
+        android:drawableLeft="@drawable/car_ad"
+        android:paddingLeft="18dp"
+        />
+    <EditText
+        android:id="@+id/mtext_3"
+        android:layout_width="275dp"
+        android:layout_height="35dp"
+        android:hint="License Plate Number"
+        android:textSize="15sp"
+        android:textColorHint="#AB7393"
+        android:background="@drawable/edittext_2"
+        android:layout_marginLeft="60dp"
+        android:padding="8dp"
+        android:textStyle = "bold"
+        android:inputType="textCapCharacters"
+        android:layout_below="@id/mtext_2"
+        android:layout_marginTop="18dp"
+        />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/mtext_3"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/member_test"
+        android:paddingLeft="18dp"
+        android:paddingTop="7dp"
+        android:text="姓"
+        android:textColor="#D0C2CA"
+        android:textSize="20sp"
+        android:textStyle = "bold" />
+
+    <EditText
+        android:id="@+id/mtext_4"
+        android:layout_width="275dp"
+        android:layout_height="35dp"
+        android:hint="Name"
+        android:textSize="15sp"
+        android:textColorHint="#AB7393"
+        android:background="@drawable/edittext_2"
+        android:layout_marginLeft="60dp"
+        android:padding="8dp"
+        android:textStyle = "bold"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/mtext_3"
+        />
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/btn_1"
+        android:text="Create"
+        android:textSize="15dp"
+        android:textColor="#FFF7FB"
+        android:textStyle = "bold"
+        android:layout_below="@id/mtext_4"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/join_btn"
+        android:text="返回"
+        android:textSize="15dp"
+        android:textColor="#FFF7FB"
+        android:textStyle = "bold"
+        android:layout_below="@id/mtext_4"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</RelativeLayout>

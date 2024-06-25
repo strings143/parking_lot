@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".report"
+    android:padding="5dp"
+    android:background="#F1E1FF"
+    >
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="10dp"
+        android:background="@drawable/btn_1"
+        android:layout_marginTop="45dp"
+        />
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="190dp"
+        android:layout_height="90dp"
+        android:background="@drawable/report"
+        />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/report_1"
+        android:layout_toRightOf="@id/one"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:text="輸入車牌號:"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#7A527A"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        />
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/member_test"
+        android:drawableLeft="@drawable/car_ad"
+        android:paddingLeft="12dp"
+        />
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="檢舉"
+            app:backgroundTint="@null"
+            android:textColor="#D3A4FF"
+            android:textSize="15sp"
+            android:background="@drawable/reserve_btn"
+            android:layout_toRightOf="@id/text_1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="110dp"
+            />
+        <EditText
+            android:id="@+id/text_1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:hint="請輸入對方車牌號"
+            android:background="@drawable/edittext_2"
+            android:layout_marginLeft="50dp"
+            android:padding="8dp"
+            android:textStyle = "bold"
+           android:layout_marginTop="110dp"
+            />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="170dp"
+        android:text="顯示新的車位:"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#7A527A"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:textSize="30sp"
+        android:background="#E6CAFF"
+        android:paddingLeft="105dp"
+        android:paddingTop="15dp"
+        android:layout_below="@id/text_1"
+        android:layout_marginLeft="55dp"
+
+        />
+    <TextView
+        android:id="@+id/text_3"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/text_1"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="25dp"
+
+
+        android:textSize="15sp"
+
+        />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/join_btn"
+        android:text="cancel"
+        android:textColor="#FFF7FB"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+
+
+</RelativeLayout>
